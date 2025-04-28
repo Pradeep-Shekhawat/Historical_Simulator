@@ -1,0 +1,82 @@
+{
+  "title": "Cuban Missile Crisis",
+  "introduction": "In the shadow of nuclear catastrophe, you stand as the leader of the free world during the Cuban Missile Crisis. Every decision has the weight of millions of lives. Your choices must balance determination with diplomacy to avert an all-out nuclear war.",
+  "summary": {
+    "userTemplate": "You chose: {decisionSummary}. That was your path through the Crisis.",
+    "historicalOutcome": "Historically, President Kennedy imposed a naval blockade in October 1962 and reached a secret deal to remove missiles from Turkey."
+  },
+  "decisionPoints": [
+    {
+      "position": 1,
+      "question": "Intel confirms Soviet missile deployments in Cuba. How do you respond initially to this existential threat?",
+      "options": [
+        {
+          "text": "Order an Immediate Naval Blockade",
+          "impacts": { "treasury": -5, "military": 10, "stability": -5 },
+          "feedback": "Your decisive blockade conveys resolve, yet tensions soar as Soviet forces remain on alert.",
+          "nextPosition": 2
+        },
+        {
+          "text": "Engage in High-Level Diplomatic Negotiations",
+          "impacts": { "treasury": 0, "military": 0, "stability": 15 },
+          "feedback": "Diplomatic outreach softens the immediate threat, but some in the military demand show of strength.",
+          "nextPosition": 2
+        },
+        {
+          "text": "Prepare a Military Invasion of Cuba",
+          "impacts": { "treasury": -20, "military": 20, "stability": -20 },
+          "feedback": "Your aggressive stance might neutralize the danger swiftly, but it drastically raises the possibility of nuclear war.",
+          "nextPosition": 2
+        }
+      ]
+    },
+    {
+      "position": 2,
+      "question": "As diplomatic channels open, Soviet Premier Khrushchev sends mixed signals. What strategy do you adopt in negotiations?",
+      "options": [
+        {
+          "text": "Make a Public Concession to Ease Tensions",
+          "impacts": { "treasury": 0, "military": -5, "stability": 20 },
+          "feedback": "Your public gesture of compromise wins global favor, though some hardliners see it as weakness.",
+          "nextPosition": 3
+        },
+        {
+          "text": "Leverage a Secret Deal Involving Removals from Turkey",
+          "impacts": { "treasury": 0, "military": 5, "stability": 10 },
+          "feedback": "Your covert maneuvers preserve national dignity while quietly defusing the crisis.",
+          "nextPosition": 3
+        },
+        {
+          "text": "Hold Firm on All Demands",
+          "impacts": { "treasury": -5, "military": 10, "stability": -10 },
+          "feedback": "Your steadfast stance reassures allies, yet risks locking both sides into an escalatory spiral.",
+          "nextPosition": 3
+        }
+      ]
+    },
+    {
+      "position": 3,
+      "question": "The world teeters on the brink of nuclear war. How will you secure a lasting resolution?",
+      "options": [
+        {
+          "text": "Announce a Tiered Withdrawal Plan",
+          "impacts": { "treasury": 0, "military": 0, "stability": 25 },
+          "feedback": "Your measured de-escalation plan reassures both allies and adversaries—a pathway to cautious peace.",
+          "nextPosition": null
+        },
+        {
+          "text": "Demand Unconditional Withdrawal of Soviet Missiles",
+          "impacts": { "treasury": 0, "military": 5, "stability": -5 },
+          "feedback": "Your firm demand yields a clear ultimatum, though it carries the inherent risk of provoking a showdown.",
+          "nextPosition": null
+        },
+        {
+          "text": "Call for a Global Summit to Restore Trust",
+          "impacts": { "treasury": 0, "military": 0, "stability": 15 },
+          "feedback": "The global summit creates momentum for peace, even as detailed negotiations remain challenging.",
+          "nextPosition": null
+        }
+      ]
+    }
+  ]
+}
